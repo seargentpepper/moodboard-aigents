@@ -18,6 +18,7 @@ const aiData = [
     { name: "Leonardo.ai", url: "https://leonardo.ai/", type: "Freemium", situations: ["Creatividad"], desc: "La herramienta definitiva para diseñadores que necesitan control total sobre la imagen.", popularity: 91 },
     { name: "Canva AI", url: "https://canva.com/", type: "Freemium", situations: ["Creatividad", "Oficina"], desc: "Ideal para emprendedores que necesitan posts y presentaciones de alta calidad rápido.", popularity: 97 },
     { name: "Phind", url: "https://phind.com/", type: "Freemium", situations: ["Programación"], desc: "Rastrea documentación oficial en tiempo real para dar soluciones de código que funcionan.", popularity: 83 },
+    { name: "Microsoft Designer", url: "https://designer.microsoft.com/?isPwa=1", type: "Freemium", situations: ["Creatividad", "Oficina"], desc: "Crea diseños profesionales para redes sociales e invitaciones a partir de texto. Edición inteligente y generación de imágenes integrada.", popularity: 89 },
     { name: "ElevenLabs", url: "https://elevenlabs.io/es", type: "Freemium", situations: ["Audio", "Creatividad"], desc: "La tecnología más avanzada para doblaje profesional y síntesis de voz emocional.", popularity: 99 },
     { name: "OpenRouter", url: "https://openrouter.ai/", type: "Freemium", situations: ["Programación", "Oficina", "Creatividad"], desc: "Interfaz unificada para acceder instantáneamente a Claude, GPT-4o y Llama3.", popularity: 86 },
     { name: "DeepSeek", url: "https://chat.deepseek.com/", type: "Gratis", situations: ["Programación", "Análisis de Docs"], desc: "Superior en matemáticas y código. IA diseñada para resolver problemas técnicos complejos y programación avanzada.", popularity: 89 },
@@ -139,7 +140,7 @@ grid.addEventListener("mousemove", e => {
 
 // Update last updated text
 function updateLastUpdated() {
-    const lastUpdateDate = new Date("2026-02-23T18:56:00"); // Based on RTF revision time
+    const lastUpdateDate = new Date("2026-02-23T19:43:00"); // Updated with Microsoft Designer
     const now = new Date();
     const diffMs = now - lastUpdateDate;
     const diffMins = Math.floor(diffMs / (1000 * 60));
