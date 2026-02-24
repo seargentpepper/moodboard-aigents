@@ -1,0 +1,16 @@
+{
+  "name": "Aigents by D41",
+  "short_name": "Aigents",
+  "description": "Curaduría de Inteligencia Extendida de D41",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#7879f1",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
